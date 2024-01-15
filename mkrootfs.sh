@@ -36,7 +36,7 @@ LC_ALL=C LANGUAGE=C LANG=C chroot ./$ROOTFS apt-get install -y sudo ssh net-tool
 cat <<EOF | chroot $ROOTFS adduser user && addgroup user adm && addgroup user sudo && addgroup user audio
 user
 user
-pi
+user
 0
 0
 0
